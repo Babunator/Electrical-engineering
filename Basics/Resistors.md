@@ -21,7 +21,7 @@
 ![](https://www.pc-control.co.uk/images/resistor_code2.gif)
 
 # Variable Resistors
-- Resistors can also be shown to have varying rather than fixed resistances. Variable resistors must have some physical means of adjustment, either a rotating shaft or lever that can be moved to vary the amount of electrical resistance<br />
+- Resistors can also be shown to have varying rather than fixed resistances. Variable resistors must have some physical means of adjustment, either a rotating shaft or lever that can be moved to vary the amount of electrical resistance.<br />
  ![](https://www.allaboutcircuits.com/uploads/articles/variable-resistance-resistors.jpg) ![](https://www.allaboutcircuits.com/uploads/articles/potentiometer-as-resistor.jpg)
 - There are two major classes of variable resistors so its rheostats and potentiometers.
 - Rheostats they usually have two terminals and the resistance between the two terminals changes. he first connection is made to one end of the resistive element and the other connection to the wiper (sliding contact). 
@@ -30,18 +30,21 @@
 
 # Resistor Technology / Materials
 ## Carbon Composition (CCR) Resistors
-- A mixture of fine carbon particles and non-conductive ceramic material are used for the resistive element of CCR Resistors.
+- A mixture of fine carbon particles and non-conductive ceramic material are used for the resistive element of CCR Resistors.<br />
+![](https://eepower.com/uploads/education/carbon_composition_resistor.png)
 - The substance is molded into the shape of a cylinder and baked. The dimensions of the body and the ratio of carbon to ceramic material determine the resistance value. More carbon used in the process means there will be a lower resistance. Power ratings can be increased by making the resistor larger.
 - They are reliable, but not very accurate (their tolerance cannot be better than about 5%). CCR resistors are still useful for certain applications because of their ability to withstand high energy pulses, a good example application would be in a power supply.
 
 ## Wirewound (WW) Resistors
-- Wire Wound Resistors are manufactured by winding resistance wire around a non-conductive core in a spiral. The core is usually made of ceramic or fiberglass, and the resistance wire is made of nickel-chromium alloy.
+- Wire Wound Resistors are manufactured by winding resistance wire around a non-conductive core in a spiral. The core is usually made of ceramic or fiberglass, and the resistance wire is made of nickel-chromium alloy. <br />
+![image](https://user-images.githubusercontent.com/86968217/164689501-d6ed4e6d-3d8b-4bfe-809a-d8c1fdcd2ff7.png)
 - The resistor value is determined by first of all the type of wire and then the diameter. (The thicker the wire the less the resistance and the length of the wire, the longer the wire the great the resistance.)
 - They are typically produced for high precision and power applications. They are not suitable for applications with frequencies higher than 50kHz.
 - Low noise and stability with respect to temperature variations are standard characteristics of Wire Wound Resistors. Resistance values are available from 0.1 up to 100 kΩ, with accuracies between 0.1% and 20%.
 
 ## Film Resistors
-- Film resistors, they're made by depositing a thin layer off resistive material onto an insulating tube or rod called the substrate (commonly ceramic). 
+- Film resistors, they're made by depositing a thin layer off resistive material onto an insulating tube or rod called the substrate (commonly ceramic). <br />
+![](https://n7f2x3w4.rocketcdn.me/wp-content/uploads/2018/08/R3_1-film-resistor-structure.jpg)
 - It's made by depositing a thin layer of resistive material around that substrate. The resistive layer is trimmed with an industrial laser until it has the desired resistance. 
 - The thinner the layer of resistive material, the higher the resistance will be. 
 - The leads are attached to the end caps, which contact the resistive film.
@@ -65,7 +68,9 @@
 
 ## Surface-mount technology
 - These have no leads. Their contacts solder directly to the circuit board pads.
-- Surface-mount resistors are used on computer system boards and other applications where components need to be very small. Surface-mount resistor markings, many surface-mount components have no visible markings and must be measured with test equipment to determine their value.
+- Surface-mount resistors are used on computer system boards and other applications where components need to be very small. Surface-mount resistor markings, many surface-mount components have no visible markings and must be measured with test equipment to determine their value. <br />
+![image](https://user-images.githubusercontent.com/86968217/164689419-370c7d6c-3cf9-4e35-8c39-8e3ae6a14f19.png)
+
 ## Material KIPs overview
 ![image](https://user-images.githubusercontent.com/86968217/164677991-5b0b70b9-6842-4ad6-a582-9b6fb7ce92a6.png)
 
