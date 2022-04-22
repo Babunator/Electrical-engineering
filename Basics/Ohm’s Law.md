@@ -19,8 +19,11 @@ V=I*R or E=I*R
 ### Power and Joule’s Law
 - *Power* is a measure of how much work can be performed in a given amount of time. 
 - In electric circuits, power is a function of both voltage and current. The unit of measurement for power is the watt, abbreviated with the letter *W.*
-- ```
+```
 P=I*E
 ```
 - Power is a function of voltage multiplied by current, and both voltage and current doubled from their previous values, the power will increase by a factor of 2 x 2, or 4.
-![](https://www.allaboutcircuits.com/uploads/articles/joules-vs-ohms-power-equations.png)
+
+```
+P=I*E    P=E^2/R   P=I^2*R
+```)
