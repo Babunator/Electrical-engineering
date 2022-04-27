@@ -25,7 +25,7 @@
  ![](https://www.allaboutcircuits.com/uploads/articles/variable-resistance-resistors.jpg) ![](https://www.allaboutcircuits.com/uploads/articles/potentiometer-as-resistor.jpg)
 - There are two major classes of variable resistors so its rheostats and potentiometers.
 - Rheostats they usually have two terminals and the resistance between the two terminals changes. he first connection is made to one end of the resistive element and the other connection to the wiper (sliding contact). 
-- Potentiometers they usually have three terminals and the resistance between the two end terminals does not change. If only two terminals are used, one end and the wiper, it acts as a variable resistor or rheostat.
+- Potentiometers they usually have three terminals and the resistance between the two end terminals does not change. If only two terminals are used, one end and the wiper, it acts as a variable resistor or rheostat. They are frequently used as an adjustable voltage divider.
 
 
 # Resistor Technology / Materials
