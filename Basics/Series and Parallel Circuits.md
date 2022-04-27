@@ -41,3 +41,8 @@ To analyze a series-parallel combination circuit, follow these steps:
 - Solve for total current (I=E/R).
 - Determine equivalent resistor voltage drops and branch currents one stage at a time, working backwards to the original circuit configuration again.<br/>
 [Example  Analysis of Series-Parallel Combination Circuit](https://www.allaboutcircuits.com/textbook/direct-current/chpt-7/analysis-technique/)
+
+# Component Failure Analysis
+- For any single component failure (open or shorted), the total resistance will always change in the same direction (either increase or decrease) as the resistance change of the failed component.
+- When a component fails shorted, its resistance always decreases. Also, the current through it will increase, and the voltage across it may drop. I say “may” because in some cases it will remain the same (case in point: a simple parallel circuit with an ideal power source).
+- When a component fails open, its resistance always increases. The current through that component will decrease to zero, because it is an incomplete electrical path (no continuity). This may result in an increase of voltage across it. The same exception stated above applies here as well: in a simple parallel circuit with an ideal voltage source, the voltage across an open-failed component will remain unchanged.
