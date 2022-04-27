@@ -25,6 +25,7 @@ The sum of the voltage drops across R1, R2, and R3 equals 45 volts, which is the
 
 # Kirchhoff’s Current Law (KCL)
 **“The algebraic sum of all currents entering and exiting a node must equal zero.”** <br/>
+![](https://www.allaboutcircuits.com/uploads/articles/kirchhoffs-current-law.png)<br/>
 This law is used to describe how a charge enters and leaves a wire junction point or node on a wire.<br/>
 
 ![](https://www.allaboutcircuits.com/uploads/articles/parallel-circuit-example-2.jpg)
