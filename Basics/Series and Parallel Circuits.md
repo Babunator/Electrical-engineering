@@ -33,3 +33,11 @@ In this circuit, the current flows in a clockwise direction, from point 1 to poi
 ![](https://www.allaboutcircuits.com/uploads/articles/power-equations.png)
 - Power is additive in any configuration of resistive circuit: </br> ```PTotal = P1 + P2 + . . . Pn```
 - Power is a measure of the rate of work, and since power dissipated must equal the total power applied by the source(s) (as per the Law of Conservation of Energy in physics), circuit configuration has no effect on the mathematics.
+
+# Analysis for Series Parallel Resistor Circuits
+To analyze a series-parallel combination circuit, follow these steps:
+- Reduce the original circuit to a single equivalent resistor, re-drawing the circuit in each step of reduction as simple series and simple parallel parts are reduced to single, equivalent resistors.
+- Solve for total resistance.
+- Solve for total current (I=E/R).
+- Determine equivalent resistor voltage drops and branch currents one stage at a time, working backwards to the original circuit configuration again.<br/>
+[Example  Analysis of Series-Parallel Combination Circuit](https://www.allaboutcircuits.com/textbook/direct-current/chpt-7/analysis-technique/)
