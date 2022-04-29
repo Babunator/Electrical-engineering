@@ -30,7 +30,29 @@
 - Cells connected together in parallel results in less total resistance, and potentially greater total current
 
 # Battery Ratings
-- The amp-hour is a unit of battery energy capacity, equal to the amount of continuous current multiplied by the discharge time, that a battery can supply before exhausting its internal store of chemical energy.
-- ![](https://www.allaboutcircuits.com/uploads/articles/amp-hour.jpg)
-- An amp-hour battery rating is only an approximation of the battery’s charge capacity and should be trusted only at the current level or time specified by the manufacturer. Such a rating cannot be extrapolated for very high currents or very long times with any accuracy.
-- Discharged batteries lose voltage and increase in resistance. The best check for a dead battery is a voltage test under load.
+- The amp-hour is a unit of battery energy capacity, equal to the amount of continuous current multiplied by the discharge time, that a battery can supply before exhausting its internal store of chemical energy.<br/>
+![](https://www.allaboutcircuits.com/uploads/articles/amp-hour.jpg)<br/>
+- An amp-hour battery rating is only an approximation of the battery’s charge capacity and should be trusted only at the current level or time specified by the manufacturer. In an ideal battery, this relationship between continuous current and discharge time is stable and absolute, but real batteries don’t behave exactly as this simple linear formula would indicate. 
+- Such a rating cannot be extrapolated for very high currents or very long times with any accuracy. With higher currents, the battery will dissipate more heat across its internal resistance, which has the effect of altering the chemical reactions taking place within. If a very light load is applied (e.g years) the chemical energy in a real battery would have been drained due to other factors (evaporation of electrolyte, deterioration of electrodes, leakage current within battery).
+- Discharged batteries lose voltage and increase in resistance (as the electrolyte becomes less and less conductive). 
+The best check for a battery’s condition is a voltage measurement under load, while the battery is supplying a substantial current through a circuit. Otherwise, a simple voltmeter check across the terminals may falsely indicate a healthy battery (adequate voltage) even though the internal resistance has increased considerably.<br/>
+![](https://www.allaboutcircuits.com/uploads/articles/scenario-for-slightly-discharged-battery_2.jpg)
+
+# Special-purpose Batteries
+## Mercury Standard Cell
+- Mercury standard cells are special types of batteries which were once used as voltage calibration standards before the advent of precision semiconductor reference devices.
+- Mercury standard cells were also susceptible to slight changes in voltage if physically or thermally disturbed. Two different types of mercury standard cells were developed for different calibration purposes: saturated and unsaturated. 
+- Saturated standard cells provided the greatest voltage stability over time, at the expense of thermal instability. 
+- Unsaturated cells provided thermal stability at the expense of stability over time, the voltage remaining virtually constant with changes in temperature but decreasing steadily by about 100 µV every year. <br/>
+![](https://www.allaboutcircuits.com/uploads/articles/mercury-standard-cell.jpg)
+## Fuel cell 
+- A fuel cell is a kind of battery that uses a combustible fuel and oxidizer as reactants to generate electricity. They are promising sources of electrical power in the future, “burning” fuels with very low emissions.
+- The process of chemical oxidation (oxygen ionically bonding with other elements) is capable of producing current flow between two electrodes just as well as any combination of metals and electrolytes. <br/>
+![](https://www.allaboutcircuits.com/uploads/articles/hydrogen-oxygen-fuel-cell.jpg) <br/>
+- To date, the most successful fuel cells constructed are those which run on hydrogen and oxygen, although much research has been done on cells using hydrocarbon fuels. While “burning” hydrogen, a fuel cell’s only waste byproducts are water and a small amount of heat. 
+- When operating on carbon-containing fuels, carbon dioxide is also released as a byproduct. Because the operating temperature of modern fuel cells is far below that of normal combustion, no oxides of nitrogen (NOx) are formed, making it far less polluting, all other factors being equal
+
+## Solar cell
+- A solar cell uses ambient light energy to motivate charge carriers from one electrode to the other, producing voltage (and current, if there is an external circuit).
+## Chemical detection cell 
+- A solar cell uses ambient light energy to motivate charge carriers from one electrode to the other, producing voltage (and current, if there is an external circuit).
