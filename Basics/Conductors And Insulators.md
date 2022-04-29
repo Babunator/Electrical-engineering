@@ -13,6 +13,6 @@
 - Current flowing through a conductor with (any) resistance will produce some amount of voltage drop across the length of that conductor.
 
 # Conductor Size
-- **fw of electrons through conductors**the broader the cross-sectional area (thickness) of the conductor, the more room for electrons to flow, and consequently, the easier it is for flow to occur (less resistance).
+- **flow of electrons through conductors**the broader the cross-sectional area (thickness) of the conductor, the more room for electrons to flow, and consequently, the easier it is for flow to occur (less resistance).
 - 
 
