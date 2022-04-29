@@ -38,6 +38,21 @@
 The best check for a battery’s condition is a voltage measurement under load, while the battery is supplying a substantial current through a circuit. Otherwise, a simple voltmeter check across the terminals may falsely indicate a healthy battery (adequate voltage) even though the internal resistance has increased considerably.<br/>
 ![](https://www.allaboutcircuits.com/uploads/articles/scenario-for-slightly-discharged-battery_2.jpg)
 
+# Practical Considerations - Batteries
+### Batteries in Series
+- Connecting batteries in series increases voltage, but does not increase overall amp-hour capacity.
+- All batteries in a series bank must have the same amp-hour rating. Or else some of the batteries will become depleted sooner than others, compromising the capacity of the whole bank. 
+### Batteries in Parallel
+- Connecting batteries in parallel increases total current capacity by decreasing total resistance, and it also increases overall amp-hour capacity.
+- All batteries in a parallel bank must have the same voltage rating.
+### Overcurrent Protection
+- For our series battery bank, one fuse will suffice to protect the wiring from excessive current, since any break in a series circuit stops current through all parts of the circuit:<br/>
+![https://www.allaboutcircuits.com/uploads/articles/overcurrent-protection.jpg]()<br/>
+- Batteries have been known to internally short-circuit, due to electrode separator failure, causing a problem, not unlike that where batteries of unequal voltage are connected in parallel: the good batteries will overpower the failed (lower voltage) battery, causing relatively large currents within the batteries’ connecting wires. To guard against this eventuality, we should protect each and every battery against overcurrent with individual battery fuses, in addition to the load fuse:<br/>
+![](https://www.allaboutcircuits.com/uploads/articles/parallel-battery-bank.jpg)<br/>
+- Batteries can be damaged by excessive cycling and overcharging.
+- Water-based electrolyte batteries are capable of generating explosive hydrogen gas, which must not be allowed to accumulate in an area.
+
 # Special-purpose Batteries
 ## Mercury Standard Cell
 - Mercury standard cells are special types of batteries which were once used as voltage calibration standards before the advent of precision semiconductor reference devices.
@@ -54,5 +69,11 @@ The best check for a battery’s condition is a voltage measurement under load, 
 
 ## Solar cell
 - A solar cell uses ambient light energy to motivate charge carriers from one electrode to the other, producing voltage (and current, if there is an external circuit).
+- The photoelectric effect describes whereby electrons are dislodged from atoms under the influence of light.<br/>
+![](https://www.allaboutcircuits.com/uploads/articles/solar-cell.jpg)<br/>
+- Conversion efficiencies for silicon solar cells are still quite low, but their benefits as power sources are legion: no moving parts, no noise, no waste products or pollution, and indefinite life.
 ## Chemical detection cell 
-- A solar cell uses ambient light energy to motivate charge carriers from one electrode to the other, producing voltage (and current, if there is an external circuit).
+- A chemical detection cell is a special type of voltaic cell which produces voltage proportional to the concentration of an applied substance (usually a specific gas in ambient air).
+- hese cells chemically react with specific substances in the air to create a voltage directly proportional to the concentration of that substance. 
+- A common application for a chemical detection cell is in the detection and measurement of oxygen concentration.
+- Cell chemistry must be designed to match the specific substance(s) to be detected, and the cells do tend to “wear out,” as their electrode materials deplete or become contaminated with use.
