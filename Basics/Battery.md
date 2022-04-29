@@ -42,13 +42,16 @@ The best check for a battery’s condition is a voltage measurement under load, 
 ### Batteries in Series
 - Connecting batteries in series increases voltage, but does not increase overall amp-hour capacity.
 - All batteries in a series bank must have the same amp-hour rating. Or else some of the batteries will become depleted sooner than others, compromising the capacity of the whole bank. 
+- 
 ### Batteries in Parallel
 - Connecting batteries in parallel increases total current capacity by decreasing total resistance, and it also increases overall amp-hour capacity.
 - All batteries in a parallel bank must have the same voltage rating.
+- 
 ### Overcurrent Protection
 - For our series battery bank, one fuse will suffice to protect the wiring from excessive current, since any break in a series circuit stops current through all parts of the circuit:<br/>
-![https://www.allaboutcircuits.com/uploads/articles/overcurrent-protection.jpg]()<br/>
-- Batteries have been known to internally short-circuit, due to electrode separator failure, causing a problem, not unlike that where batteries of unequal voltage are connected in parallel: the good batteries will overpower the failed (lower voltage) battery, causing relatively large currents within the batteries’ connecting wires. To guard against this eventuality, we should protect each and every battery against overcurrent with individual battery fuses, in addition to the load fuse:<br/>
+![](https://www.allaboutcircuits.com/uploads/articles/overcurrent-protection.jpg)<br/>
+- In Parallel Batteries have been known to internally short-circuit, due to electrode separator failure, causing a problem, not unlike that where batteries of unequal voltage are connected in parallel: the good batteries will overpower the failed (lower voltage) battery, causing relatively large currents within the batteries’ connecting wires. 
+- To guard against this eventuality, we should protect each and every battery against overcurrent with individual battery fuses, in addition to the load fuse:<br/>
 ![](https://www.allaboutcircuits.com/uploads/articles/parallel-battery-bank.jpg)<br/>
 - Batteries can be damaged by excessive cycling and overcharging.
 - Water-based electrolyte batteries are capable of generating explosive hydrogen gas, which must not be allowed to accumulate in an area.
@@ -60,6 +63,7 @@ The best check for a battery’s condition is a voltage measurement under load, 
 - Saturated standard cells provided the greatest voltage stability over time, at the expense of thermal instability. 
 - Unsaturated cells provided thermal stability at the expense of stability over time, the voltage remaining virtually constant with changes in temperature but decreasing steadily by about 100 µV every year. <br/>
 ![](https://www.allaboutcircuits.com/uploads/articles/mercury-standard-cell.jpg)
+
 ## Fuel cell 
 - A fuel cell is a kind of battery that uses a combustible fuel and oxidizer as reactants to generate electricity. They are promising sources of electrical power in the future, “burning” fuels with very low emissions.
 - The process of chemical oxidation (oxygen ionically bonding with other elements) is capable of producing current flow between two electrodes just as well as any combination of metals and electrolytes. <br/>
@@ -72,6 +76,7 @@ The best check for a battery’s condition is a voltage measurement under load, 
 - The photoelectric effect describes whereby electrons are dislodged from atoms under the influence of light.<br/>
 ![](https://www.allaboutcircuits.com/uploads/articles/solar-cell.jpg)<br/>
 - Conversion efficiencies for silicon solar cells are still quite low, but their benefits as power sources are legion: no moving parts, no noise, no waste products or pollution, and indefinite life.
+- 
 ## Chemical detection cell 
 - A chemical detection cell is a special type of voltaic cell which produces voltage proportional to the concentration of an applied substance (usually a specific gas in ambient air).
 - hese cells chemically react with specific substances in the air to create a voltage directly proportional to the concentration of that substance. 
